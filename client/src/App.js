@@ -55,23 +55,23 @@ function App() {
   };
 
   return (
-    
+
     <div className="App">
       {/* <div>
         <button onClick={notify}>Notify!</button>
         <ToastContainer />
        </div> */}
-  
+
       <Navbar>
         {/* <SignOut /> */}
       </Navbar>
-        
+
 
       <SignOut className="signOutButton" />
-      <h1 className='h1WC'> 
+      <h1 className='h1WC'>
           Trinity generates 2 random words. <br></br>
-          You create an AI-based image with a prompt. <br></br> 
-          (must include the words) <br></br> 
+          You create an AI-based image with a prompt. <br></br>
+          (must include the words) <br></br>
           The coolest image wins! <br></br>
       </h1>
       <section className='section1'>
@@ -123,8 +123,8 @@ function SignOut() {
 
 export default App;
 
-   {/* 
-          
+   {/*
+
        {/*  <h1>{contest.random2Words[0] + contest.random2Words[1]}</h1> */}
 
 
